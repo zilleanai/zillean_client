@@ -8,9 +8,9 @@ with open("README.md", "r") as fh:
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
-setuptools.setup(name='mlplatform_client',
+setuptools.setup(name='zillean_client',
                  version='0.0.1',
-                 description='mlplatform client',
+                 description='zillean client',
                  long_description=long_description,
                  long_description_content_type="text/markdown",
                  license='MIT',
